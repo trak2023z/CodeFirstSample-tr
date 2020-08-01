@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace CodeFirst.Models
 {
@@ -13,5 +10,6 @@ namespace CodeFirst.Models
         public int Count { get; set; }
         public string Description { get; set; }
         public string Category { get; set; }
+        public virtual ICollection<OrderProduct> OrderProducts { get; set; }
     }
 }

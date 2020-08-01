@@ -1,8 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>CodeFirstSample</AssemblyName>
+    <RootNamespace>CodeFirstSample</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200731115244_DbContextUpdate.cs" />
+    <Compile Remove="Migrations\20200731115244_DbContextUpdate.Designer.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
