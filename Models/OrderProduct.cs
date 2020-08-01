@@ -1,4 +1,4 @@
-﻿namespace CodeFirst.Models
+﻿namespace CodeFirstSample.Models
 {
     public class OrderProduct
     {

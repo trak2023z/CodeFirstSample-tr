@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace CodeFirst.Migrations
+namespace CodeFirstSample.Migrations
 {
     public partial class DbContextUpdate : Migration
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CodeFirst.Models
+namespace CodeFirstSample.Models
 {
     public class Order
     {

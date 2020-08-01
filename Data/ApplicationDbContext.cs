@@ -1,7 +1,7 @@
-﻿using CodeFirst.Models;
+﻿using CodeFirstSample.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CodeFirst.Data
+namespace CodeFirstSample.Data
 {
     public class ApplicationDbContext : DbContext
     {
